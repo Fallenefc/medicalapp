@@ -1,0 +1,65 @@
+{
+  "patient_id": "testID2",
+  "patient_providers": ["providerID1"],
+  "patient_events": [
+    {
+      "eventID": "10",
+      "date": 1,
+      "measurements": {
+        "BP": 120,
+        "Glucose": 210,
+        "BMI": 34
+      },
+      "warnings": ["patient diagnosed with Diabetes"]
+    },
+    {
+      "eventID": "20",
+      "date": 2,
+      "measurements": {
+        "BP": 120,
+        "Glucose": 200,
+        "Creatinine": 1.2,
+        "BMI": 34,
+        "HbA1c": 9
+      },
+      "warnings": ["patient started on metformin"]
+    },
+    {
+      "eventID": "30",
+      "date": 3,
+      "measurements": {
+        "BP": 120,
+        "Glucose": 140,
+        "Creatinine": 1.2,
+        "BMI": 34,
+        "HbA1c": 8
+      },
+      "warnings": ["increased metformin dosage"]
+    },
+    {
+      "eventID": "40",
+      "date": 4,
+      "measurements": {
+        "BP": 124,
+        "Creatinine": 1.4,
+        "BMI": 33,
+        "HbA1c": 7.2
+      },
+      "warnings": []
+    },
+    {
+      "eventID": "50",
+      "date": 5,
+      "measurements": {
+        "BP": 124,
+        "Glucose": 90,
+        "Creatinine": 2,
+        "BMI": 31,
+        "HbA1c": 6.7
+      },
+      "warnings": [
+        "Replace metformin with glycazide due to worsening of the renal function"
+      ]
+    }
+  ]
+}

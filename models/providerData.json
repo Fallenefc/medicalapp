@@ -1,0 +1,7 @@
+{
+  "email": "provider@mockdata.com",
+  "name": "Cat Jam",
+  "title": "Dr.",
+  "uid": "provider_id_1",
+  "patients": ["testID1", "testID2"]
+}
